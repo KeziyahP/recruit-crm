@@ -1,0 +1,33 @@
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.buttonContainer button {
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #000;
+  font-weight: 590;
+  border-radius: 5px;
+  height: 32px;
+  background: #fff;
+}
+
+.BreadCrumb {
+  display: flex;
+  gap: 10px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+button.buttonPrimary {
+  background-color: #2570ca; 
+  color:#fff
+}
